@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(135deg,rgb(74,13,143) 0%, rgba(250,42,143)100%);
+    height: 100vh;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px 0.2px;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    color:blueviolet;
+    border-bottom: 2px solid #cd99d4;
+}
+
+ul li a.active{
+    border-bottom: 2px solid #cd99d4;
+}
+.logo{
+    float:left;
+    position: absolute;
+    top:27px;
+}
+
+.main{
+    max-width:1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top:30%;
+    right:70%;
+    
+    
+}
+.title h1{
+    color: #fff;
+    font-size:40px;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+.title h2{
+    color:#cd99d4;
+    font-size:40px;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+.act{
+    color: #ffb8f6;
+    
+}
+.image{
+    position: relative;
+    top: 20%;
+    left:50%;
+    width: 30%;
+    
+}
+
+
+.title1{
+    position: absolute;
+    top:120%;
+    right:40%;
+    
+    
+}
+
+
+.image1{
+    position: relative;
+    top: 20%;
+    left:10%;
+    width: 30%;
+    
+}
+.active{
+    border-bottom: 2px solid #cd99d4;
+     
+    display: inline-block;
+    
+}
+.mid{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.form-title{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.input-form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.inner-msg{
+    width:100%;
+    margin-bottom: 20px;
+
+}
+
+
+.input > input{
+    border:0;
+    width:260px;
+    padding:10px 20px;
+    outline: none;
+}
+
+
+.msg >textarea{
+    width: 100%;
+    border:0;
+    padding:10px 20px;
+    outline:none;
+    height: 80px;
+}
+
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px o;
+    border-radius: 25px;
+    
+    
+
+}
+
+.burger {
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 460px) {
+   .nav{
+       float: right;
+   }
+    
+    
+}
